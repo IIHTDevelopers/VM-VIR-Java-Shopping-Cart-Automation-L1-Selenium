@@ -33,7 +33,9 @@ public class FileOperations
 	public Map<String, String> readJson(String file, String jsonNode) throws FileNotFoundException, IOException, ParseException
 	{
 		
-		return null;
+		jsonParser = new JSONParser();
+		jsonObject = (JSONObject)jsonParser.parse(new FileReader(file));
+        	return (Map<String, String>) jsonObject.get(jsonNode);
 	}
 	
 }
