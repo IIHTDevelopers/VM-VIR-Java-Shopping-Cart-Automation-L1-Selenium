@@ -2,6 +2,7 @@ package coreUtilities.utils;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.FileReader;
 import java.util.Map;
 import java.util.Properties;
 
@@ -32,8 +33,9 @@ public class FileOperations
 	@SuppressWarnings("unchecked")
 	public Map<String, String> readJson(String file, String jsonNode) throws FileNotFoundException, IOException, ParseException
 	{
-		
-		return null;
+		jsonParser = new JSONParser();
+		jsonObject = (JSONObject)jsonParser.parse(new FileReader(file));
+		return (Map<String, String>) jsonObject.get(jsonNode);
 	}
 	
 }
