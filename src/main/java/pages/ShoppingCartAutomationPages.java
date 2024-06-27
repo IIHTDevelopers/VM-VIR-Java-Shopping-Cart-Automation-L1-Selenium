@@ -37,6 +37,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public String verifyNavigateTotTheShoppingCartpage() throws Exception {
+		// write your logic here
 		return null;
 	}
 	/**@Test2
@@ -47,6 +48,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public boolean verifyShopOptionIsPresent() throws Exception {
+		// write your logic here
 		return false;
 	}
 	/**@Test3
@@ -57,6 +59,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public String clickOnShopMenuandValidateTheTitle() throws Exception {
+		// write your logic here
 		return null;
 
 	}
@@ -70,6 +73,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public String clickOnLogoandVerifyItIsNavigateToTheHomePage() throws Exception {
+		// write your logic here
 		return null;
 
 	}
@@ -82,6 +86,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public boolean checkIfHomePageHasSectionOfNewArrivals() throws Exception {
+		// write your logic here
 		return false;
 	}
 	
@@ -93,6 +98,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public boolean checkOfArrivalsSectionhasExactly3ProductsEnlisted() throws Exception {
+		// write your logic here
 		return false;
 	}
 	
@@ -104,6 +110,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public String clickOnSeleniumRubyProductAndValidatetheTitleOfThisPage() throws Exception {
+		// write your logic here
 		return null;
 
 	}
@@ -116,6 +123,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public boolean verifyAddBasketButtonIsPresentAndClickOnAddBasket() throws Exception {
+		// write your logic here
 		return false;
 	}
 	/**@Test9
@@ -126,6 +134,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public boolean viewBasketButtonIsPresentAndClickOnIt() throws Exception {
+		// write your logic here
 		return false;
 	}
 	
@@ -137,6 +146,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public String userIsNavigateToTheBasketPage() throws Exception {
+		// write your logic here
 		return null;
 
 	}
@@ -149,6 +159,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public Boolean seleniumrubyIsPresentInsideTheCartPage() throws Exception {
+		// write your logic here
 		return null;
 	}
 	
@@ -160,6 +171,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public Boolean verifythatSeleniumRubyProductPriceIs500() throws Exception {
+		// write your logic here
 		return null;
 	}
 	
@@ -173,6 +185,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public Boolean verifythatSeleniumRubyProductQuantityIsOne() throws Exception {
+		// write your logic here
 		return null;
 	}
 	
@@ -186,6 +199,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public Boolean verifythatSeleniumrubyProductTotalPriceIs500() throws Exception {
+		// write your logic here
 		return null;
 	}
 	
@@ -198,6 +212,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 	 * @author : Yaksha
 	 */
 	public Boolean verifythatSubTotalAndTaxAndTotalFieldHasContainsAmount() throws Exception {
+		// write your logic here
 		return null;
 	}
 
