@@ -6,22 +6,18 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ShoppingCartAutomationPages extends StartupPage
 {
-	By shopOption = By.xpath(""); 
-	By cartMenuButton = By.xpath(""); 
+	By shopOption = By.xpath("");
 	By automationPracticeSiteLogo = By.xpath(""); 
 	By newArrivalButton = By.xpath(""); 
 	By seleniumRubyProduct = By.xpath(""); 
 	By thinkingInHtmlProduct = By.xpath(""); 
 	By masteringJavaScriptProduct = By.xpath(""); 
-	By addToBasketButton = By.xpath(""); 
-	By productAddedMessage = By.xpath(""); 
+	By addToBasketButton = By.xpath("");
 	By viewBasketButton = By.xpath("");  
-	By seleniumRubyInsideTheBasketPage = By.xpath(""); 
-	By couponcodeField = By.xpath(""); 
-	By applyCouponcodeButton = By.xpath("");  
-	By priceReadOnyField = By.xpath(""); 
-	By quantityField= By.xpath(""); 
-	By totalField= By.xpath(""); 
+	By seleniumRubyInsideTheBasketPage = By.xpath("");
+	By priceReadOnyField = By.xpath("");
+	By quantityField = By.xpath(""); 
+	By totalField = By.xpath(""); 
 
 	public ShoppingCartAutomationPages(WebDriver driver) 
 	{
