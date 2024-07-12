@@ -6,6 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ShoppingCartAutomationPages extends StartupPage
 {
+	// please write all locators here
 
 	public ShoppingCartAutomationPages(WebDriver driver) 
 	{
